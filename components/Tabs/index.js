@@ -13,13 +13,10 @@
 //   .then(response => {
 //     console.log(response);
 //   });
-//
 
 axios
   .get("https://lambda-times-backend.herokuapp.com/topics")
   .then(response => {
-    console.log(response);
-    document.querySelector(".topics");
     response.data.topics.forEach(item => {
       document.querySelector(".topics").append(tab(item));
     });
