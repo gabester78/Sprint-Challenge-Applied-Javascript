@@ -11,20 +11,24 @@
 
 function Header() {
   const headContainer = document.querySelector(".header-container");
-
-  const header = document.createElement("div");
-  header.classList.add("header");
-  headContainer.append(header);
+  const head = document.createElement("div");
+  head.classList.add("header");
+  headContainer.append(head);
 
   const date = document.createElement("span");
   date.classList.add("date");
-  date.textContent = `MARCH 28, 2019`;
+  date.textContent = "MARCH 28, 2019";
 
   const name = document.createElement("h1");
-  name.textContent = `Lambda Times`;
+  name.textContent = "Lambda Times";
 
   const temp = document.createElement("span");
-  temp.textContent = `98°`;
+  temp.classList.add("temp");
+  temp.textContent = "98°";
 
-  header.append(date, name, temp);
+  head.append(date, name, temp);
+
+  return head;
 }
+
+document.querySelector(".header-container").append(Header());
