@@ -1,0 +1,14 @@
+What is the DOM?
+The document object model. 
+
+What is an event?
+A command that affects HTML or CSS with Javascript. 
+
+What is an event listener?
+A command that affects HTML or CSS with Javascript when a certain action is completed, such as a mouse click.
+
+Why would we convert a NodeList into an Array?
+So you can use array methods. 
+
+What is a component?
+It's a template that can be used repeatedly by passing data into it from an array or api.
