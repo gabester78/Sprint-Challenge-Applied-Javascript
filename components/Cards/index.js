@@ -28,21 +28,18 @@ function cards(data){
 
     const authorContainer = document.createElement('div')
     authorContainer.classList.add('author')
-
-    container.appendChild(headline, authorContainer)
+    container.append(headline, authorContainer)
 
     const authorImageContainer = document.createElement('div')
     authorImageContainer.classList.add('img-container')
 
     const authorImage = document.createElement('img')
     authorImage.src = data.authorPhoto
-    
-    authorImageContainer.appendChild(authorImage)
-
+    authorImageContainer.append(authorImage)
+ 
     const authorName = document.createElement('span')
     authorName.textContent = data.authorName
-
-    authorContainer.appendChild(authorImageContainer, authorName)
+    authorContainer.append(authorImageContainer, authorName)
 
     return container
 
