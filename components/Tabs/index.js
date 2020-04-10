@@ -25,8 +25,10 @@ axios
   .then(response => {
     response.data.topics.forEach(data => {
         tabsContainer.append(tabs(data));
-    })
-    .catch((error) => {
-        console.log("Error:", error);
-      });
-  });
+    });
+});
+
+//     .catch((error) => {
+//         console.log("Error:", error);
+//       });
+//   });
