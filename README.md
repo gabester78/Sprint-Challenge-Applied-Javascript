@@ -30,13 +30,23 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. What is the DOM?
 
+Document Object Model. It's rendered with the code we create.
+
 2. What is an event?
+
+Something the user triggers when using the code we created. 
 
 3. What is an event listener?
 
+An example would be a click event to activate an action. We create the code that "listens" for it. 
+
 4. Why would we convert a NodeList into an Array?
 
+So we can loop through it with array methods.
+
 5. What is a component?
+
+Chunks of resuable code. 
 
 ### Git Set up
 
